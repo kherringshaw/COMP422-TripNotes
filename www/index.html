@@ -43,7 +43,7 @@
 			<p><a href="#page2" data-transition="slidedown">info</a></p>
 		<!-- listview example -->
 		<div>
-
+                                <!-- French Cities -->
 				<ul data-role="listview" data-inset="true">
 				  <li data-role="list-divider" role="heading">French Cities</li>
 				  <li>
@@ -61,11 +61,26 @@
 				    </a>
 				  </li>
 				</ul>
+                                <!-- End of French Cities -->
+                    
+                                <!-- Italian Cities -->
+                    		<ul data-role="listview" data-inset="true">
+				  <li data-role="list-divider" role="heading">Italian Cities</li>
+				  <li>
+				    <a href="#page4" data-transition="pop">
+				      <h3>Rome</h3>
+				      <p><strong>Principality of Rome</strong></p>
+				      <p>Rome is the capital of Italy and of the Lazio region. With 2.9 million residents in 1,285 km2 (496.1 sq mi), it is also the country's largest and most populated comune...</p>
+				      <p class="ui-li-aside"><strong>1</strong> image</p>
+				    </a>
+				  </li>
+				</ul>
+                                <!-- End of Italian Cities -->
 
 		</div>
 		</div><!-- /content -->
-		<div data-role="footer">
-	    <h5>footer - page 1</h5>
+		<div data-role="footer" data-position="fixed">
+                <h5>footer - page 1</h5>
 		</div><!-- /footer -->
 	</div><!-- /page1 -->
 
@@ -77,8 +92,8 @@
 		<div role="main" class="ui-content">
 			<p><a data-rel="back">Return</a></p>
 		</div><!-- /content -->
-		<div data-role="footer">
-	    <h5>footer - page 2</h5>
+		<div data-role="footer" data-position="fixed">
+                <h5>footer - page 2</h5>
 		</div><!-- /footer -->
 	</div><!-- /page2 -->
 
@@ -93,10 +108,28 @@
 			<img src="media/images/monaco1.jpg">
 		<section>
 		</div><!-- /content -->
-		<div data-role="footer">
+		<div data-role="footer" data-position="fixed">
 	    <h5>footer - page 3</h5>
 		</div><!-- /footer -->
 	</div><!-- /page3 -->
+        
+        <!-- page4 -->
+	<div data-role="page" id="page4">
+		<div data-role="header">
+	    <h3>page 4</h3>
+		</div><!-- /header -->
+		<div role="main" class="ui-content">
+			<p><a data-rel="back" class="ui-btn">Return</a></p>
+		<section class="image-view">
+			<img src="media/images/monaco1.jpg">
+		<section>
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+                <h5>footer - page 4</h5>
+		</div><!-- /footer -->
+	</div><!-- /page4 -->
+        
 
     </body>
 </html>
+
